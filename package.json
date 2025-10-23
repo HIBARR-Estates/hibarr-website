@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky",
+    "prepare": "husky && husky install",
     "build:analyze": "ANALYZE=true next build",
     "analyze": "npm run build:analyze && npx webpack-bundle-analyzer .next/static/chunks/*.js"
   },
