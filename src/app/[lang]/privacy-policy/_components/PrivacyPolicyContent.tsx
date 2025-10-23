@@ -2,7 +2,7 @@
 
 import { Icon } from '@/components/icons';
 import { PrivacyPolicy } from '@/types/sanity.types';
-import { PortableText } from '@portabletext/react';
+import { PortableText } from 'next-sanity';
 
 type PrivacyPolicyContentProps = {
   privacyPolicyData: PrivacyPolicy | null;

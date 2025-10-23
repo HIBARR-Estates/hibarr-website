@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { PortableText } from "next-sanity";
-import type { PortableTextBlock } from "@portabletext/types";
+import type { PortableTextBlock } from "next-sanity";
 import { cn } from "@/lib/utils";
 
 export type TextWithImageBlock = {
